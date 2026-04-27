@@ -1,4 +1,4 @@
-resource "google_sql_database_instance" "master" {
+resource "google_sql_database_instance" "master_1" {
   name             = "${var.db_name}"
   project          = "${var.project}"
   region           = "${var.region}"
